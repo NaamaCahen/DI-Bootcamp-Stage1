@@ -1,1 +1,18 @@
-ECHO is on.
+.odd {
+    background-color: rgb(227, 81, 81);
+    font-family: Verdana, DejaVu Sans, sans-serif;
+}
+
+#second {
+    color: blue;
+    font-size: 36px;
+}
+
+.twentyfour {
+    font-size: 24px;
+}
+
+#fourth {
+    font-weight: bold;
+    background-color:  rgb(124, 227, 124);
+}
