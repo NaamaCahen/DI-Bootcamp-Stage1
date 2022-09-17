@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+   box-sizing: border-box; 
+font-family: 'Reem Kufi Ink', sans-serif;   
+}
+header{
+    width: 100%;
+    position: fixed;
+    
+}
+nav{
+    display: flex;
+    background-color: rgb(110, 110, 225);
+    
+    justify-content: center;
+    
+}
+nav a{
+    font-size: 3vw;
+    text-decoration: none;
+    color: white;
+    margin-right: 2%;
+}
+#home{
+    width: 100%;
+    height: 100vh;
+    background-image:url(https://lh3.googleusercontent.com/a-/AFdZucqyHIyTlo_jSGGN78X6I9Ti7eLim3EEDX5G1S__=w2880-h1200-l90-rj-dcpTSSzpkJ) ;
+    background-size:100%;
+    background-repeat: no-repeat;
+    padding-top: 10vh;
+    color: rgb(152, 145, 240);
+    font-size: 4vw;
+    background-color: rgb(91, 156, 230);
+}
+#home #jewishAlter{
+    font-size: 0.5em;
+}
+#biographie{
+    background-color: rgb(101, 101, 159);
+
+}
+#biographie p{
+    font-size: 2.5vw;
+}
+h2{
+    text-align: center;
+    background-color: rgb(101, 101, 159);
+   font-size: 5vw;
+   padding-top: 10vh;
+}
+#imgRound{
+    border-radius:40%;
+}
+.flexBox{
+    display: flex;
+    justify-content: center;
+}
