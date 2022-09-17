@@ -52,7 +52,62 @@ h2{
 #imgRound{
     border-radius:40%;
 }
-.flexBox{
+.biographie{
     display: flex;
     justify-content: center;
+}
+.albumCard{
+    border: 5px  rgb(22, 22, 140);
+    display: flex;
+    flex-direction: column;
+    margin: 1%;
+    background-color: rgb(158, 193, 224);
+    -moz-box-shadow:    3px 3px 3px 3px rgb(31, 29, 29);
+  -webkit-box-shadow: 3px 3px 3px 3px rgb(43, 38, 38);
+  box-shadow:         3px 3px 3px 3px rgb(57, 54, 54);
+}
+.albumCard img{
+    width: 30vw;
+}
+.albumCard ul{
+    list-style: none;
+}
+.albumCards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color:  rgb(101, 101, 159);
+}
+.boldText{
+    font-weight: bold;
+}
+#bestSongs{
+    background-color:  rgb(101, 101, 159);
+    
+}
+#songCards{
+    display: flex ;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.song{
+    -moz-box-shadow:    3px 3px 3px 3px rgb(31, 29, 29);
+    -webkit-box-shadow: 3px 3px 3px 3px rgb(43, 38, 38);
+    box-shadow:         3px 3px 3px 3px rgb(57, 54, 54);
+}
+.song img{
+    width: 48vw;
+}
+#contactUs{
+    background-color:rgb(101, 101, 159) ;
+    text-align: center;
+}
+#footer{
+    background-color:rgb(101, 101, 159) ;
+
+}
+footer p{
+    text-align: center;
+    padding-top: 10vh;
+    padding-bottom: 1vh;
 }
